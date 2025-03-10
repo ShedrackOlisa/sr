@@ -36,7 +36,7 @@ header .container {
 }
 
 header .logo {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
 }
   
@@ -420,9 +420,11 @@ footer .footer-bottom {
 }
 
 .popular-posts h2 {
-  font-size: 28px;
+  font-size: 23px;
   margin-bottom: 40px;
   color: #2c3e50;
+  text-align: center;
+  border: 1px solid black;
 }
 
 .popular-posts .posts-grid {
@@ -452,7 +454,7 @@ footer .footer-bottom {
 }
 
 .popular-posts .popular-post h3 {
-  font-size: 20px;
+  font-size: 16px;
   margin: 15px;
   color: #2c3e50;
 }
@@ -482,10 +484,38 @@ footer .footer-bottom {
   }
 
   .popular-posts h2 {
-    font-size: 24px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid black;
   }
 
   .popular-posts .posts-grid {
     grid-template-columns: 1fr; /* Single column on mobile */
   }
 }
+
+
+
+
+.myButton {
+  background-color: #ff6f61;
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  height: 45px;
+  border-radius: 5px;
+  width: 150px;
+  margin: auto;
+  font-weight: bold;
+  }
+  
+  .myButton:hover {
+  background-color: black;
+  }
